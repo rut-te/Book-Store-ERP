@@ -10,11 +10,11 @@
         <h1>Bookshop ERP</h1>
     </div>
     <div>
-        <button>+ New book</button>
-        <button>Load Data</button>
+        <button id="newBook">+ New book</button>
+        <button id="loadData">Load Data</button>
         <select>
             <option>English</option>
-            <option>Hebrow</option>
+            <!-- <option>Hebrow</option> -->
         </select>
     </div>
     <div>
@@ -33,20 +33,18 @@
                 </tbody>
               </table>
         </div>
-        <div>
-            <h2></h2>
-            <img>
-            <h6></h6>
-            <div>
-                <button>-</button>
-                <h6></h6>
-                <button>+</button>
-            </div>
+        <div id="divToDisplayWindow">
+           
         </div>
     </div>
     <div>
-        <button>Next</button>
-        <button>Back</button>
+        <button id="nextButton">Next</button>
+        <div id="pagination"></div>
+        <button id="backButton">Back</button>    
     </div>
 </body>
+
+<script src="./js/view.js"></script>
+<script src="./js/controller.js"></script>
+<script src="./data/booksData.js"></script>
 </html>
