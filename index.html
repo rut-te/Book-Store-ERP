@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="BookshopTitle">
         <h1>Bookshop ERP</h1>
     </div>
-    <div>
+    <div id="miniNav">
         <button id="newBook">+ New book</button>
         <button id="loadData">Load Data</button>
         <select>
@@ -17,31 +18,31 @@
             <!-- <option>Hebrow</option> -->
         </select>
     </div>
-    <div>
-        <div>
+    <div id="mainDiv">
+        <div id="divToTable">
             <table id="booksTable">
-                <thead>
+                <thead >
                   <tr>
-                    <th>id</th>
-                    <th>Title</th>
-                    <th>Price</th>
-                    <th>Action</th>
+                   
                   </tr>
                 </thead>
                 <tbody>
                   
                 </tbody>
               </table>
+
+              <div id="buttonsDiv">
+                <button id="nextButton">Next</button>
+                <div id="pagination"></div>
+                <button id="backButton">Back</button>    
+            </div>
         </div>
         <div id="divToDisplayWindow">
            
         </div>
+        
     </div>
-    <div>
-        <button id="nextButton">Next</button>
-        <div id="pagination"></div>
-        <button id="backButton">Back</button>    
-    </div>
+   
 </body>
 
 <script src="./js/view.js"></script>

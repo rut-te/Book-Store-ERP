@@ -40,6 +40,7 @@ function renderBooksTableInDelete(button) {
 
 function renderBookDetailsWindow(formDiv){
     const newBookWindow=document.getElementById("divToDisplayWindow");
+    newBookWindow.innerHTML='';
     newBookWindow.appendChild(formDiv);
 }
 

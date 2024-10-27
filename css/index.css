@@ -1,0 +1,117 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+td{
+    background-color: rgba(127, 122, 122, 0.624);
+    text-align: center;
+    color:aliceblue;
+}
+
+button,input,select,textarea{
+    margin: 1vh;
+    padding: 0.5vh;
+    border-radius: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+    background-color:rgba(10, 9, 9, 0.504) ;
+    color:aliceblue;
+}
+
+#BookshopTitle {
+    width: 100%;
+    background-color: rgba(23, 21, 21, 0.832);
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+#miniNav {
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(78, 74, 74, 0.759);
+    align-items: center;
+    text-align: center;
+}
+
+#divToTable{
+    width: 60vw;
+    padding-top: 4vh;
+    border-radius: 20%;
+}
+
+#divToDisplayWindow{
+    width: 30vw;
+    margin-left: 7vw;
+}
+
+.productContainer{
+    width: 80%;
+    height: 40vh;
+    margin-top: 2vh;
+    background-color: rgba(95, 85, 85, 0.736);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20%;
+    padding: 1vh;
+    color:aliceblue;
+    font-size: 1.2em;
+}
+
+#productForm{
+    width: 90%;
+    height: auto;
+    margin-top: 2vh;
+    background-color: rgba(95, 85, 85, 0.736);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20%;
+    padding: 1vh;
+    color:aliceblue;
+    font-size: 1em;
+}
+
+#mainDiv {
+    background-color: rgba(132, 155, 233, 0.896);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#booksTable {
+    width: 90%;
+    margin-left: 3vw;
+    background-color: rgba(135, 136, 139, 0.796);
+}
+
+#buttonsDiv {
+    width: 90%;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableTitle{
+    background-color: rgba(84, 120, 239, 0.796);
+    
+}
+
+.rateElement{
+    margin-bottom: 0;
+    margin-top: 4vh;
+}

@@ -12,6 +12,7 @@ function createTableTitle() {
     const newRow = document.createElement("tr");
     for (let i = 1; i <= 4; i++) {
         const newCell = document.createElement("td");
+        newCell.className="tableTitle";
         if (i === 1) {
             newCell.textContent = `id`;
         }
@@ -205,7 +206,7 @@ function submitDetails(bookId) {
 function readBook(bookId) {
     const bookDetails = booksArr.find(book => book.id === bookId);
     const bookDetailsDiv = document.createElement('div');
-    bookDetailsDiv.classList.add('product-container');
+    bookDetailsDiv.classList.add('productContainer');
     const titleElement = document.createElement('h2');
     titleElement.textContent = bookDetails.title;
     const priceElement = document.createElement('p');
@@ -215,6 +216,7 @@ function readBook(bookId) {
     imgElement.alt = 'img';
     const rateElement = document.createElement('p');
     rateElement.textContent = `rate: ${bookDetails.rate}`;
+    rateElement.className='rateElement'
     const increaseButton = document.createElement('button');
     increaseButton.textContent = '+';
     increaseButton.addEventListener('click', () => {
